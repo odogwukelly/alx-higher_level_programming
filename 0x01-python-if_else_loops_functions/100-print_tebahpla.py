@@ -1,6 +1,6 @@
  #!/usr/bin/python3
- for num in range(26):
-     if num % 2 == 0:
-         print('{:c}'.format(122 - num), end='')
+ for p in range(26):
+     if p % 2 == 0:
+         print('{:c}'.format(122 - p), end='')
      else:
-         print('{:c}'.format(90 - num), end='')
+         print('{:c}'.format(90 - p), end='')

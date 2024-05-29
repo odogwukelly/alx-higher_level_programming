@@ -1,6 +1,9 @@
-#!/usr/bin/python3
+#!/usr/bin/python3  # Shebang line to indicate that the script should be run with Python 3
+
 def islower(c):
-    if ord(c) >= 97 and ord(c) <= 122:
-        return True
+    # Check if the ASCII value of the character is between 97 ('a') and 122 ('z') inclusive
+    if 97 >= ord(c) <= 122:
+        return True  # Return True if the character is a lowercase letter
     else:
-        return False
+        return False  # Return False otherwise
+
